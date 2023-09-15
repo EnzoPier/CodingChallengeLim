@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+  
+  .container{
+    background-color: rgba(0,0,0,0.45);
+    border-radius: 15px;
+    padding: 100px;
+  
+  }
+  
+  header{
+    text-align: center;
+    color: #04dc04;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  
+  nav{
+    padding: 10px;
+    text-align: center;
+    background-color: #04dc04; 
+    border-radius: 6px;
+  }
+  
+  nav > button{
+    background-color: white; 
+    border-color: white;
+    border-style: solid;
+    color: #196719;
+    font-size: 20px;
+    padding: 10px ;
+    text-align: center;
+    border-radius: 6px;
+    transition-duration: 2.0s;
+  }
+  
+  nav > button:hover{
+    background-color: #04dc04; 
+    color: white;
+  }
+  
+  main{
+    color: white;
+  }
+  
+  .monopattino{
+    margin-top: 20px;
+  }
+  
+  .monopattino > .monopattino-name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .monopattino > .distance{
+    font-weight: 300;
+    display: block;
+  }
+  
+  .freccia:before{
+    content: "\21A6"; 
+  }
+  
+  .metri{
+    font-weight: 500;
+    color: #16fa01; 
+  }
+  
+  .full-bar{
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    background-color: #32CD32; 
+    border-radius: 6px;
+    
+  }
+  
+  .med-bar{
+    width: 50%;
+    height: 25px;
+    text-align: left;
+    background-color: #FFD700; 
+    border-radius: 6px;
+    
+  }
+  
+  .low-bar{
+    width: 20%;
+    height: 25px;
+    text-align: left;
+    background-color: #cc0000;
+    border-radius: 6px;
+  }
